@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Catalog.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Catalog.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Catalog.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Application.dll": {}
+        }
+      },
+      "Catalog.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Catalog.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Catalog.Application/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Application/Catalog.Application.csproj",
+      "msbuildProject": "../Catalog.Application/Catalog.Application.csproj"
+    },
+    "Catalog.Core/1.0.0": {
+      "type": "project",
+      "path": "../Catalog.Core/Catalog.Core.csproj",
+      "msbuildProject": "../Catalog.Core/Catalog.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Catalog.Application >= 1.0.0",
+      "Catalog.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Annaati\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+      "projectName": "Catalog.Infrastructure",
+      "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+            },
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
