@@ -1,16 +1,17 @@
-using Catalog.API;
-
-public class Program
+namespace Catalog.API
 {
-    private static void Main(string[] args)
+    public class Program
     {
-        CreateHotstBuilder(args).Build().Run();
-    }
+        private static void Main(string[] args)
+        {
+            CreateHotstBuilder(args).Build().Run();
+        }
 
-    private static IHostBuilder CreateHotstBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<startup>();
-            });
+        private static IHostBuilder CreateHotstBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }

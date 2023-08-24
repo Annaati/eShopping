@@ -90,3 +90,7 @@ D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\n
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.pdb
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.genruntimeconfig.cache
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\ref\Catalog.API.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Data\SeedData\brands.json
+D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Data\SeedData\products.json
+D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Data\SeedData\types.json
