@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
+    "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
   },
   "projects": {
-    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+    "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectUniqueName": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
-        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
+        "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -62,23 +63,24 @@
         }
       }
     },
-    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
-        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,6 +98,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
