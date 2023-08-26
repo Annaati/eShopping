@@ -7,7 +7,6 @@ namespace Catalog.Core.Application.Responses
     public class ProductResponse
     {
         public string Id { get; set; }
-        [BsonElement("Name")]
         public string Name { get; set; }
         public string Description { get; set; }
         public string Summery { get; set; }

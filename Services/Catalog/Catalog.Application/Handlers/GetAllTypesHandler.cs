@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Catalog.Application.Handlers
 {
-    public class GetAllTypesHandler : IRequestHandler<GetAllTypesQuery, IList<TypesResponse>>
+    public class GetAllTypesHandler : IRequestHandler<GetAllTypesQuery, IList<TypeResponse>>
     {
         private readonly ITypeRepository typeRepository;
 
@@ -17,10 +17,10 @@ namespace Catalog.Application.Handlers
 
 
 
-        public async Task<IList<TypesResponse>> Handle(GetAllTypesQuery request, CancellationToken cancellationToken)
+        public async Task<IList<TypeResponse>> Handle(GetAllTypesQuery request, CancellationToken cancellationToken)
         {
             var typesList = await typeRepository.GetAllTypes();
-            var typesResponseList = ProductMapper.mapper.Map<IList<TypesResponse>>(typesList);
+            var typesResponseList = ProductMapper.mapper.Map<IList<TypeResponse>>(typesList);
 
             return typesResponseList;
         }
