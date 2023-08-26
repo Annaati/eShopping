@@ -155,3 +155,15 @@ D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\r
 D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.pdb
 D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.genruntimeconfig.cache
 D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\ref\Catalog.API.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\bin\Debug\net6.0\System.Text.Json.dll
