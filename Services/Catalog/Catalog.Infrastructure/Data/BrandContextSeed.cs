@@ -16,6 +16,7 @@ namespace Catalog.Infrastructure.Data
             if (!checkBrands)
             {
                 string brandsData = File.ReadAllText(path);
+                //string brandsData = File.ReadAllText("../Catalog.Infrastructure/Data/SeedData/brands.json");
 
                 var brandsList = JsonConvert.DeserializeObject<List<ProductBrand>>(brandsData);
 

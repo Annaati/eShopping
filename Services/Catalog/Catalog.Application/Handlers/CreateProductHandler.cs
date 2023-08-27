@@ -16,7 +16,7 @@ namespace Catalog.Application.Handlers
         }
         public async Task<ProductResponse> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
-            var ProductEntity = ProductMapper.mapper.Map<Product>(request);
+            var ProductEntity = ProductMapper.Mapper.Map<Product>(request);
 
             if(ProductEntity == null)
             {
@@ -24,7 +24,7 @@ namespace Catalog.Application.Handlers
             }
 
             var newProuduct = await _productRepository.CreateProduct(ProductEntity);
-            var ProductResponse = ProductMapper.mapper.Map<ProductResponse>(newProuduct);
+            var ProductResponse = ProductMapper.Mapper.Map<ProductResponse>(newProuduct);
 
             return ProductResponse;
         }

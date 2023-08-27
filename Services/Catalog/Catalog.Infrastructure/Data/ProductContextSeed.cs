@@ -16,6 +16,7 @@ namespace Catalog.Infrastructure.Data
             if (!checkProducts)
             {
                 string productsData = File.ReadAllText(path);
+                //string productsData = File.ReadAllText("../Catalog.Infrastructure/Data/SeedData/products.json");
 
                 var productsList = JsonConvert.DeserializeObject<List<Product>>(productsData);
 

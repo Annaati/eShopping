@@ -13,7 +13,7 @@ namespace Catalog.Infrastructure.Data
         public CatalogContext(IConfiguration configuration)
         {
             var client = new MongoClient(configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
-            var database = client.GetDatabase(configuration.GetValue<string>("DatabaseSettings:ProductDb"));
+            var database = client.GetDatabase(configuration.GetValue<string>("DatabaseSettings:DatabaseName"));
 
             Products = database.GetCollection<Product>(configuration.GetValue<string>("DatabaseSettings:ProductsCollection"));
             Brands = database.GetCollection<ProductBrand>(configuration.GetValue<string>("DatabaseSettings:BrandsCollection"));

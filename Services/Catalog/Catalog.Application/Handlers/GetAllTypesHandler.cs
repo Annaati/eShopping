@@ -20,7 +20,7 @@ namespace Catalog.Application.Handlers
         public async Task<IList<TypeResponse>> Handle(GetAllTypesQuery request, CancellationToken cancellationToken)
         {
             var typesList = await typeRepository.GetAllTypes();
-            var typesResponseList = ProductMapper.mapper.Map<IList<TypeResponse>>(typesList);
+            var typesResponseList = ProductMapper.Mapper.Map<IList<TypeResponse>>(typesList);
 
             return typesResponseList;
         }

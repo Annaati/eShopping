@@ -18,6 +18,6 @@ namespace Catalog.Application.Mappers
             return mapper;
         });
 
-        public static IMapper mapper => Lazy.Value;
+        public static IMapper Mapper => Lazy.Value;
     }
 }

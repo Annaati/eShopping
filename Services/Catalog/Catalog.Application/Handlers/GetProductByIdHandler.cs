@@ -17,7 +17,7 @@ namespace Catalog.Application.Handlers
         public async Task<ProductResponse> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
             var product = await _productRepository.GetProductById(request.Id);
-            var productResponse = ProductMapper.mapper.Map<ProductResponse>(product);
+            var productResponse = ProductMapper.Mapper.Map<ProductResponse>(product);
 
             return productResponse;
         }

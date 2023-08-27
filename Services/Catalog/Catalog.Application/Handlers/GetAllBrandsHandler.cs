@@ -20,7 +20,7 @@ namespace Catalog.Application.Handlers
         public async Task<IList<BrandResponse>> Handle(GetAllBrandsQuery request, CancellationToken cancellationToken)
         {
             var brandsList = await _brandRepository.GetAllBrands();
-            var brandsResponseList = ProductMapper.mapper.Map<IList<BrandResponse>>(brandsList);
+            var brandsResponseList = ProductMapper.Mapper.Map<IList<BrandResponse>>(brandsList);
 
             return brandsResponseList;
         }

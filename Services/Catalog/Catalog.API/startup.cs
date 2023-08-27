@@ -1,4 +1,5 @@
 ﻿using Catalog.Application.Commands;
+using Catalog.Application.Handlers;
 using Catalog.Core.Repositories;
 using Catalog.Infrastructure.Data;
 using Catalog.Infrastructure.Repositories;
@@ -13,10 +14,10 @@ namespace Catalog.API
 {
     public class Startup
     {
-        public IConfiguration Configuration;
-        public Startup(IConfiguration configuration)
+        public IConfiguration _config;
+        public Startup(IConfiguration config)
         {
-            Configuration = configuration;
+            this._config = config;
         }
 
 
@@ -25,7 +26,7 @@ namespace Catalog.API
             services.AddControllers();
             services.AddApiVersioning();
             services.AddHealthChecks()
-                .AddMongoDb(Configuration["DatabaseSettings:ConnectionString"], "Catalog Mongo Db Health Check", HealthStatus.Degraded);
+                .AddMongoDb(_config["DatabaseSettings:ConnectionString"], "Catalog Mongo Db Health Check", HealthStatus.Degraded);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog API", Version = "v1" });
@@ -33,9 +34,7 @@ namespace Catalog.API
 
             //Other DIs
             services.AddAutoMapper(typeof(Startup));
-            services.AddMediatR(typeof(CreateProductCommand).GetTypeInfo().Assembly);
-            //services.AddMediatR(typeof(UpdateProductCommand).GetTypeInfo().Assembly);
-
+            services.AddMediatR(typeof(CreateProductHandler).GetTypeInfo().Assembly);
             services.AddScoped<ICatalogContext, CatalogContext>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IBrandRepository, ProductRepository>();
