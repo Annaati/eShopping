@@ -161,9 +161,6 @@
             "projectReferences": {
               "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
                 "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
-              },
-              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }

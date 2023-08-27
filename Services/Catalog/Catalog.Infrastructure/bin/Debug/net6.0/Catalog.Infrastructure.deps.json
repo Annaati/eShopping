@@ -9,7 +9,6 @@
       "Catalog.Infrastructure/1.0.0": {
         "dependencies": {
           "Catalog.Application": "1.0.0",
-          "Catalog.Core": "1.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Newtonsoft.Json": "13.0.3"
         },

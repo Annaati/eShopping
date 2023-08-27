@@ -1413,7 +1413,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Catalog.Application >= 1.0.0",
-      "Catalog.Core >= 1.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 6.0.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
@@ -1446,9 +1445,6 @@
           "projectReferences": {
             "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
               "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
-            },
-            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
             }
           }
         }

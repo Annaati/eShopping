@@ -2,6 +2,7 @@
 using Catalog.Application.Queries;
 using Catalog.Application.Responses;
 using Catalog.Core.Application.Responses;
+using Catalog.Core.Specs;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
@@ -23,9 +24,9 @@ namespace Catalog.API.Controllers
         [HttpGet]
         [Route("GetAllProducts")]
         [ProducesResponseType(typeof(IList<ProductResponse>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts()
+        public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts([FromQuery] CatalogSpecParams catalogSpecParams)
         {
-            var query = new GetAllProductsquery();
+            var query = new GetAllProductsquery(catalogSpecParams);
             var products = await _mediator.Send(query);
 
             return Ok(products);
@@ -93,7 +94,7 @@ namespace Catalog.API.Controllers
 
         [HttpPut]
         [Route("UpdateProduct")]
-        [ProducesResponseType(typeof(ProductResponse), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> UpdateProduct([FromBody] UpdateProductCommand productCommand)
         {
             var result = await _mediator.Send(productCommand);
@@ -104,7 +105,7 @@ namespace Catalog.API.Controllers
 
         [HttpDelete]
         [Route("DeleteProduct/{id}", Name = "DeleteProduct")]
-        [ProducesResponseType(typeof(ProductResponse), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> DeleteProduct(string id)
         {
             var query = new DeleteProductByIdQuery(id);
