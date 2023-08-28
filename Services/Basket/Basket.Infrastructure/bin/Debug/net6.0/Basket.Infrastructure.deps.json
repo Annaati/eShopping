@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Basket.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Basket.Application": "1.0.0"
+        },
+        "runtime": {
+          "Basket.Infrastructure.dll": {}
+        }
+      },
+      "Basket.Application/1.0.0": {
+        "dependencies": {
+          "Basket.Core": "1.0.0"
+        },
+        "runtime": {
+          "Basket.Application.dll": {}
+        }
+      },
+      "Basket.Core/1.0.0": {
+        "runtime": {
+          "Basket.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Basket.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Basket.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Basket.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
