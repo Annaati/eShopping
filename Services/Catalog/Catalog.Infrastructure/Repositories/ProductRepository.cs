@@ -69,24 +69,21 @@ namespace Catalog.Infrastructure.Repositories
 
         private IReadOnlyList<Product> DataFilter(CatalogSpecParams catalogSpecParams, FilterDefinition<Product> filter)
         {
-            switch(catalogSpecParams.Sort)
+            return catalogSpecParams.Sort switch
             {
-                case "priceAsc":
-                    return _context.Products.Find(filter)
-                        .Sort(Builders<Product>.Sort.Ascending("Price"))
-                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
-                        .Limit(catalogSpecParams.PageSize).ToList();
-                case "priceDesc":
-                    return _context.Products.Find(filter)
-                        .Sort(Builders<Product>.Sort.Descending("Price"))
-                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
-                        .Limit(catalogSpecParams.PageSize).ToList();
-                default:
-                    return _context.Products.Find(filter)
-                        .Sort(Builders<Product>.Sort.Ascending("Name"))
-                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
-                        .Limit(catalogSpecParams.PageSize).ToList();
-            }
+                "priceAsc" => _context.Products.Find(filter)
+                                        .Sort(Builders<Product>.Sort.Ascending("Price"))
+                                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
+                                        .Limit(catalogSpecParams.PageSize).ToList(),
+                "priceDesc" => _context.Products.Find(filter)
+                                        .Sort(Builders<Product>.Sort.Descending("Price"))
+                                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
+                                        .Limit(catalogSpecParams.PageSize).ToList(),
+                _ => _context.Products.Find(filter)
+                                        .Sort(Builders<Product>.Sort.Ascending("Name"))
+                                        .Skip(catalogSpecParams.PageSize * (catalogSpecParams.PageIndex - 1))
+                                        .Limit(catalogSpecParams.PageSize).ToList(),
+            };
         }
 
         public async Task<IEnumerable<Product>> GetProductByName(string name)
