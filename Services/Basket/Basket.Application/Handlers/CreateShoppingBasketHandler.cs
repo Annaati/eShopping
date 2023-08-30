@@ -7,7 +7,7 @@ using MediatR;
 
 namespace Basket.Application.Handlers
 {
-    public class CreateShoppingBasketHandler : IRequestHandler<CreateShoppingBasketCommand, ShoppingBasketResponse>
+    public class CreateShoppingBasketHandler : IRequestHandler<UpdatehoppingBasketCommand, ShoppingBasketResponse>
     {
         private readonly IShoppingBasketRepository _shoppingBasketRepository;
 
@@ -16,7 +16,7 @@ namespace Basket.Application.Handlers
             _shoppingBasketRepository = shoppingBasketRepository;
         }
 
-        public async Task<ShoppingBasketResponse> Handle(CreateShoppingBasketCommand request, CancellationToken cancellationToken)
+        public async Task<ShoppingBasketResponse> Handle(UpdatehoppingBasketCommand request, CancellationToken cancellationToken)
         {
             //TODO: Call Discount Service and Apply Coupon
 

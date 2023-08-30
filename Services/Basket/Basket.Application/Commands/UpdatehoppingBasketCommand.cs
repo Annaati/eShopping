@@ -4,9 +4,9 @@ using MediatR;
 
 namespace Basket.Application.Commands
 {
-    public class CreateShoppingBasketCommand : IRequest<ShoppingBasketResponse>
+    public class UpdatehoppingBasketCommand : IRequest<ShoppingBasketResponse>
     {
-        public CreateShoppingBasketCommand(string userName, List<ShoppingBasketItem> items)
+        public UpdatehoppingBasketCommand(string userName, List<ShoppingBasketItem> items)
         {
             UserName = userName;
             Items = items;
