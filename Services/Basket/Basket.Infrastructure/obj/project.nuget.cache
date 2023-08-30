@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AqNIXfmovuTFg+lIatMk4+5Xo7L8u4pE5AbfHu9+O2nLCKqZ2r5NwY1fxWiIh0wgtRJfrD76mTaxVuPn+b6FqA==",
+  "dgSpecHash": "Qf+vv4ARfes/ScfLWYTCc8qSqxKHrwF1i1VUwfZ+E4EX2ntT8Xf4ju7axFT26PXKy0a4My37SLYRWXI4d728HA==",
   "success": true,
-  "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+  "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Annaati\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",

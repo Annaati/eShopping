@@ -182,3 +182,4 @@ D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\n
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.pdb
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.genruntimeconfig.cache
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\ref\Catalog.API.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.API\obj\Debug\net6.0\Catalog.API.sourcelink.json

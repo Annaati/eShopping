@@ -2688,11 +2688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "projectName": "Basket.API",
-      "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.API\\obj\\",
+      "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2708,11 +2708,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
-              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj"
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj"
             },
-            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
-              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj"
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj"
             }
           }
         }
@@ -2721,6 +2721,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -2779,7 +2782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
       }
     }
   }

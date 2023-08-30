@@ -1,27 +1,43 @@
 version: '3.4'
 
 services:
-  catalogdb:
-    container_name: catalogdb
+  catalogDb:
+    container_name: catalogDb
     restart: unless-stopped
     ports:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
 
-  catalog.api:
-    container_name: catalog.api
+  basketDb:
+    container_name: basketDb
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  catalogApi:
+    container_name: catalogApi
     restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-#      - ASPNETCORE_URLS=http://*:9000
       - "DatabaseSettings__ConnectionString=mongodb://catalogdb:27017"
       - "DatabaseSettings__DatabaseName=CatalogDb"
       - "DatabaseSettings__ProductsCollection=Products"
       - "DatabaseSettings__BrandsCollection=Brands"
       - "DatabaseSettings__TypesCollection=Types"
-      # - "ElasticConfiguration__Uri=http://elasticsearch:9200"
     depends_on:
-      - catalogdb
+      - catalogDb
     ports:
       - "7000:80"
+
+  basketApi:
+    container_name: basketApi
+    restart: unless-stopped
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "CacheSettings__ConnectionString=basketdb:6379"
+    depends_on:
+      - basketDb
+    ports:
+      - "7001:80"

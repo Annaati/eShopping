@@ -9,3 +9,15 @@ D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.Core\obj\Debug\ne
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\refint\Basket.Core.dll
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.pdb
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\ref\Basket.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\bin\Debug\net6.0\Basket.Core.deps.json
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\bin\Debug\net6.0\Basket.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\bin\Debug\net6.0\Basket.Core.pdb
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.AssemblyInfoInputs.cache
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.AssemblyInfo.cs
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.csproj.CoreCompileInputs.cache
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.sourcelink.json
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\refint\Basket.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\Basket.Core.pdb
+D:\Study\MicroSerivces\eShopping\Services\Basket\Basket.Core\obj\Debug\net6.0\ref\Basket.Core.dll

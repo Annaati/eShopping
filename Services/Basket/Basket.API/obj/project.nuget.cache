@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VEd1bw9l3Cc8gKh0fV1N0ZpQ1hJ5k/5itQbjyR5wcpS2SGzBqFEwLNAJt0B8+NLVGd6QIpMRCJmjrEzJ3IUV2g==",
+  "dgSpecHash": "L5OmqktpHZGM4YEF3CX0AzwC0iMDjSxYF6KEBs3z09Z5bhtR/NTdb/CC25zY08cwD9Ci+0Yc4dTZMLlZcQneSg==",
   "success": true,
-  "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+  "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Annaati\\.nuget\\packages\\aspnetcore.healthchecks.redis\\6.0.4\\aspnetcore.healthchecks.redis.6.0.4.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\6.0.5\\aspnetcore.healthchecks.ui.client.6.0.5.nupkg.sha512",

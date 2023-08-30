@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9eVZAKlQyVWOymJ01Uv6zZMKynVDkWAPE50TYqCzWKcxG2vGKL4g/T8s4RhX3rIe+uvMTOZcOruxyQIbOL0kPg==",
+  "dgSpecHash": "oSkwBvHvrdVvsx8L2XfjJpTdVIP7rkKeDm6mvDL2RONP2ZHMchM1tfkgYi7MFRBoO6bWGeueuQbP0u2yCMn/Kg==",
   "success": true,
-  "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+  "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Annaati\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.2\\aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

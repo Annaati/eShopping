@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s+EEIDTL8xEDuxwYQ39h1x4cF3WUvbLohxSSRo5ikYN4WZ99QBr8ys8DneC9vVDR3OBDgfzr4/PdM6G230RwnQ==",
+  "dgSpecHash": "pMCe8YNCZl5myBp2BqifyLuB4SNJfIR6TflIsijSh21KyTvNzmiLE7PRM2e527HzHvnCW8sMe6p+u8VZ+7EuMg==",
   "success": true,
-  "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+  "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Annaati\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.2\\aspnetcore.healthchecks.mongodb.6.0.2.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

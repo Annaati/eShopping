@@ -1423,11 +1423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
       "projectName": "Catalog.Infrastructure",
-      "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+      "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
+      "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1443,8 +1443,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
             }
           }
         }
@@ -1453,6 +1453,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -1484,7 +1487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
       }
     }
   }

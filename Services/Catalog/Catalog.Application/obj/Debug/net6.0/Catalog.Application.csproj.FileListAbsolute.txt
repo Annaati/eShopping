@@ -43,3 +43,4 @@ D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.Application\obj
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.Application\obj\Debug\net6.0\refint\Catalog.Application.dll
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.Application\obj\Debug\net6.0\Catalog.Application.pdb
 D:\Study\dotNET\MicroServices\eShopping\Services\Catalog\Catalog.Application\obj\Debug\net6.0\ref\Catalog.Application.dll
+D:\Study\MicroSerivces\eShopping\Services\Catalog\Catalog.Application\obj\Debug\net6.0\Catalog.Application.sourcelink.json
