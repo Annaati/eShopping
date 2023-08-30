@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Basket.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Basket.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Basket.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.Application.dll": {}
+        }
+      },
+      "Basket.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Basket.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Basket.Application/1.0.0": {
+      "type": "project",
+      "path": "../Basket.Application/Basket.Application.csproj",
+      "msbuildProject": "../Basket.Application/Basket.Application.csproj"
+    },
+    "Basket.Core/1.0.0": {
+      "type": "project",
+      "path": "../Basket.Core/Basket.Core.csproj",
+      "msbuildProject": "../Basket.Core/Basket.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Basket.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Annaati\\.nuget\\packages\\": {}
@@ -32,7 +69,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
+              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

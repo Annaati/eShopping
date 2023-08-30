@@ -111,6 +111,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Basket.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Basket.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Basket.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.Application.dll": {}
+        }
+      },
+      "Basket.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Basket.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.Core.dll": {}
+        }
+      },
+      "Basket.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Basket.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Basket.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -556,10 +592,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Basket.Application/1.0.0": {
+      "type": "project",
+      "path": "../Basket.Application/Basket.Application.csproj",
+      "msbuildProject": "../Basket.Application/Basket.Application.csproj"
+    },
+    "Basket.Core/1.0.0": {
+      "type": "project",
+      "path": "../Basket.Core/Basket.Core.csproj",
+      "msbuildProject": "../Basket.Core/Basket.Core.csproj"
+    },
+    "Basket.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Basket.Infrastructure/Basket.Infrastructure.csproj",
+      "msbuildProject": "../Basket.Infrastructure/Basket.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Basket.Application >= 1.0.0",
+      "Basket.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -590,7 +643,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
+              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Application\\Basket.Application.csproj"
+            },
+            "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
+              "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

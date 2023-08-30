@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NUwj08QnN05fO8dMvYiSNNvwEgh42UrDnpUbCaH7YfoprANZ9mWBexwU8H7embv7JX+Hx6RNKlg61JUlAxBAWA==",
+  "dgSpecHash": "OzpopDvvxKVdg7lGLhX1Xg8RqjF2navkTT+vtWGAWGrxU9noODgFgugL4fWzZ4xOLEiFQ5vtBWboDwmLAgu1QQ==",
   "success": true,
   "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
