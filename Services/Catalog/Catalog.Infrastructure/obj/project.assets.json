@@ -1418,7 +1418,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\annaa\\.nuget\\packages\\": {}
+    "C:\\Users\\Annaati\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1426,18 +1426,17 @@
       "projectUniqueName": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
       "projectName": "Catalog.Infrastructure",
       "projectPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
       "outputPath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
