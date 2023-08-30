@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "J/5zmBw3EfSqrMklyB9x01uKD/Z3/qIaGWIEn0zNlvhWAjc6WxeSBtQ8NvT4n0WG0FFcmw4PEDRs43bRYSZBiA==",
+  "dgSpecHash": "AqNIXfmovuTFg+lIatMk4+5Xo7L8u4pE5AbfHu9+O2nLCKqZ2r5NwY1fxWiIh0wgtRJfrD76mTaxVuPn+b6FqA==",
   "success": true,
   "projectFilePath": "D:\\Study\\dotNET\\MicroServices\\eShopping\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Annaati\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\6.0.21\\microsoft.extensions.caching.stackexchangeredis.6.0.21.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
