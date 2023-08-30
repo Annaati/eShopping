@@ -57,3 +57,16 @@ D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\obj\Debug\net
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
 D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\HealthChecks.Redis.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\HealthChecks.UI.Client.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\HealthChecks.UI.Core.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Study\dotNET\MicroServices\eShopping\Services\Basket\Basket.API\bin\Debug\net6.0\System.Text.Json.dll
