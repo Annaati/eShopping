@@ -1,6 +1,6 @@
 ﻿namespace Basket.Core.Entities
 {
-    public class BasketCartItem
+    public class ShoppingBasketItem
     {
         public string ProductId { get; set; }
         public string ProductName { get; set; }
