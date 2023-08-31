@@ -18,11 +18,5 @@ namespace Basket.Application.Handlers
             await _shoppingBasketRepository.DeleteBasket(request.UserName);
             return Unit.Value;
         }
-
-        async Task IRequestHandler<DeleteBasketByUserNameQuery>.Handle(DeleteBasketByUserNameQuery request, CancellationToken cancellationToken)
-        {
-            await _shoppingBasketRepository.DeleteBasket(request.UserName);
-
-        }
     }
 }

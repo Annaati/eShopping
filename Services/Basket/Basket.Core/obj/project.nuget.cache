@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pq5Id5WPYEDAEbdFwcxQ5342fFgXq8Fd85gw1ag9+kSYiN51qlga71AEBb6vIV97ipn1DcrtcLpg05FDUGTfsg==",
+  "dgSpecHash": "fr1e7Ud/VjTnyfd7gone6xqIPlVLNM37Yh5mwZ1ru2nIJPenrx2SPKSwDARkSRycYBFbWc8xiTJKuILqEowiWw==",
   "success": true,
-  "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+  "projectFilePath": "D:\\Study\\dotNET\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
