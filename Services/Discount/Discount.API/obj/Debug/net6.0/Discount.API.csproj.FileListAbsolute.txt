@@ -36,3 +36,17 @@ D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0
 D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Discount.Application.pdb
 D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Discount.Infrastructure.pdb
 D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Discount.Core.pdb
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Dapper.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.Core.Api.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.Net.Client.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Grpc.Net.Common.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\Npgsql.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\MediatR.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

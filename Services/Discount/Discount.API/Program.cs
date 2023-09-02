@@ -1,15 +1,19 @@
-var builder = WebApplication.CreateBuilder(args);
+using Discount.API;
+using Discount.Infrastructure.Extensions;
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-
-if (app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    public static void Main(string[] args)
+    {
+        var host = CreateHostBuilder(args).Build();
+        host.MigrateDb<Program>();
+        host.Run();
+    }
 
-app.Run();
+    private static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
+}
