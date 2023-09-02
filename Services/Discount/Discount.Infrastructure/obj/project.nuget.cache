@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TEeLzLYuhMKfUFOsU+Rn0EC4dD+Hi3VJ8LJw9R+fy13xPbeEj6DOiihTYMjmy3Ez4IPnIShgxRr8Ra1tjdBFJA==",
+  "dgSpecHash": "noY2NJRN2FVPwSxKOISrRX+3Jlou51XrBgHyT3FlmCWJrPBnTIZFZrGSWmQaE/XtBbnbLwis5CRaWJHUqPmzSw==",
   "success": true,
   "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Annaati\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore\\2.56.0\\grpc.aspnetcore.2.56.0.nupkg.sha512",
@@ -14,6 +15,9 @@
     "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.clientfactory\\2.56.0\\grpc.net.clientfactory.2.56.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.common\\2.56.0\\grpc.net.common.2.56.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\grpc.tools\\2.56.0\\grpc.tools.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.3\\microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",

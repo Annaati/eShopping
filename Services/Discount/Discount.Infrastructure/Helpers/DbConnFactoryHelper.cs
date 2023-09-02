@@ -10,7 +10,7 @@ namespace Discount.Infrastructure.Helpers
         public DbConnFactoryHelper(IConfiguration configu)
         {
             _config = configu;
-            _connString = _config.GetConnectionString("PostgresConnStr") ??
+            _connString = _config.GetValue<string>("DatabaseSettings:ConnectionString") ??
                                             throw new ApplicationException("Couldn't establish a connection to the db Server"); ;
         }
 

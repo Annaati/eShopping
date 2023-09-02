@@ -19,6 +19,7 @@ namespace Discount.Infrastructure.Extensions
                 logger.LogInformation("Discount Db Migration started");
 
                 var conn = dbConnFactoryHelper.Create();
+                conn.Open();
                 var command = conn.CreateCommand();
 
                 command.CommandText = "DROP TABLE IF EXISTS Coupon";
@@ -46,6 +47,8 @@ namespace Discount.Infrastructure.Extensions
                                                     'The Asics Gel Rocket 8 Indoor Court Shoes (Orange/Silver) will keep you motivated and fired up to perform at your peak in volleyball, squash and other indoor sports. Beginner and intermediate players get cutting-edge technologies at an affordable price point.This entry level all-rounder has a durable upper and offers plenty of stability.', 
                                                     100);";
                 command.ExecuteNonQuery();
+
+                conn.Close();
 
                 logger.LogInformation("Discount Db Migration completed");
             }
