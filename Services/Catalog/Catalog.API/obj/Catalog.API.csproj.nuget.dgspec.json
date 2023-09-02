@@ -1,38 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
-        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.API\\obj\\",
+        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-                "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
               },
-              "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
-                "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj"
+              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
+                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj"
               }
             }
           }
@@ -103,32 +102,31 @@
         }
       }
     },
-    "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
-        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
+        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -172,24 +170,23 @@
         }
       }
     },
-    "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
-        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -237,32 +234,31 @@
         }
       }
     },
-    "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
+    "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
         "projectName": "Catalog.Infrastructure",
-        "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
+        "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-                "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+              "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+                "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
               }
             }
           }

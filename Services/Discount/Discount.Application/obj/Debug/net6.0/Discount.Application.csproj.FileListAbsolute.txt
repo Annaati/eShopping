@@ -1,0 +1,15 @@
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\bin\Debug\net6.0\Discount.Application.deps.json
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\bin\Debug\net6.0\Discount.Application.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\bin\Debug\net6.0\Discount.Application.pdb
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.AssemblyInfoInputs.cache
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.AssemblyInfo.cs
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.csproj.CoreCompileInputs.cache
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\refint\Discount.Application.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.pdb
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\ref\Discount.Application.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\bin\Debug\net6.0\Discount.Core.dll
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\bin\Debug\net6.0\Discount.Core.pdb
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.csproj.AssemblyReference.cache
+D:\Study\MicroSerivces\eShopping\Services\Discount\Discount.Application\obj\Debug\net6.0\Discount.Application.csproj.CopyComplete

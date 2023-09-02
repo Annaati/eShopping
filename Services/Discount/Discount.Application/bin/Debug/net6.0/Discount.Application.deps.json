@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Discount.Application/1.0.0": {
+        "dependencies": {
+          "Discount.Core": "1.0.0"
+        },
+        "runtime": {
+          "Discount.Application.dll": {}
+        }
+      },
+      "Discount.Core/1.0.0": {
+        "runtime": {
+          "Discount.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Discount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

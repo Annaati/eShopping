@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Discount.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Discount.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Discount.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Application.dll": {}
+        }
+      },
+      "Discount.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Discount.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Discount.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Discount.Application/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Application/Discount.Application.csproj",
+      "msbuildProject": "../Discount.Application/Discount.Application.csproj"
+    },
+    "Discount.Core/1.0.0": {
+      "type": "project",
+      "path": "../Discount.Core/Discount.Core.csproj",
+      "msbuildProject": "../Discount.Core/Discount.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Discount.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Annaati\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
+      "projectName": "Discount.Infrastructure",
+      "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Application\\Discount.Application.csproj": {
+              "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Application\\Discount.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

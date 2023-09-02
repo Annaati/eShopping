@@ -8,26 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\annaa\\.nuget\\packages\\": {}
+    "C:\\Users\\Annaati\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Study\\dotNET\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+      "projectUniqueName": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
       "projectName": "Basket.Core",
-      "projectPath": "D:\\Study\\dotNET\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-      "packagesPath": "C:\\Users\\annaa\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\dotNET\\eShopping\\Services\\Basket\\Basket.Core\\obj\\",
+      "projectPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+      "packagesPath": "C:\\Users\\Annaati\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Basket\\Basket.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\annaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Annaati\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
