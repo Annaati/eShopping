@@ -3,6 +3,8 @@ version: '3.4'
 services:
   catalogDb:
     container_name: catalogDb
+    networks:
+      - eshoppingNet
     restart: unless-stopped
     ports:
       - "27017:27017"
@@ -11,13 +13,29 @@ services:
 
   basketDb:
     container_name: basketDb
+    networks:
+      - eshoppingNet
     ports:
       - "6379:6379"
+
+
+  portainer:
+    container_name: portainer
+    networks:
+      - eshoppingNet
+    restart: unless-stopped
+    ports:
+      - "8080:8000"
+      - "9090:9000"
     volumes:
-      - redis_data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
 
   catalogApi:
     container_name: catalogApi
+    networks:
+      - eshoppingNet
     restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
@@ -33,6 +51,8 @@ services:
 
   basketApi:
     container_name: basketApi
+    networks:
+      - eshoppingNet
     restart: unless-stopped
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
