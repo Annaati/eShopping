@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "rbz3HzYkslwZ1RAPVVnIx7N1XQjvn9O+Vnr02pFXnc9DzHJw7JJBmduaAPE0sS5VzE+hqM/DsaLI0nfCphCUjg==",
+  "dgSpecHash": "TEeLzLYuhMKfUFOsU+Rn0EC4dD+Hi3VJ8LJw9R+fy13xPbeEj6DOiihTYMjmy3Ez4IPnIShgxRr8Ra1tjdBFJA==",
   "success": true,
   "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Annaati\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore\\2.56.0\\grpc.aspnetcore.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server\\2.56.0\\grpc.aspnetcore.server.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.56.0\\grpc.aspnetcore.server.clientfactory.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.core.api\\2.56.0\\grpc.core.api.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.client\\2.56.0\\grpc.net.client.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.clientfactory\\2.56.0\\grpc.net.clientfactory.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.common\\2.56.0\\grpc.net.common.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.tools\\2.56.0\\grpc.tools.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.3\\microsoft.extensions.configuration.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.3\\microsoft.extensions.configuration.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.3\\microsoft.extensions.configuration.binder.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.3\\microsoft.extensions.dependencyinjection.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.3\\microsoft.extensions.dependencyinjection.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.http\\3.0.3\\microsoft.extensions.http.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.logging\\3.0.3\\microsoft.extensions.logging.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
