@@ -17,19 +17,20 @@ services:
       - eshoppingNet
     ports:
       - "6379:6379"
-
-
-  portainer:
-    container_name: portainer
+  
+  discountDb:
+    container_name: discountDb
     networks:
       - eshoppingNet
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres@123
+      - POSTGRES_DB=DiscountDb
     restart: unless-stopped
     ports:
-      - "8080:8000"
-      - "9090:9000"
+      - "5432:5432"
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - portainer_data:/data
+      - postgres_data:/var/lib/postgresql/data/
 
 
   catalogApi:
@@ -61,3 +62,43 @@ services:
       - basketDb
     ports:
       - "7001:80"
+
+  discountApi:
+    container_name: discountApi
+    networks:
+      - eshoppingNet
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DatabaseSettings__ConnectionString=SERVER=localhost; PORT=5432; DATABASE=DiscountDb; User ID=postgres; Password=postgres@123;"      
+    depends_on:
+      - discountDb
+    ports:
+      - "7002:80"
+
+
+  portainer:
+    container_name: portainer
+    networks:
+      - eshoppingNet
+    restart: unless-stopped
+    ports:
+      - "8080:8000"
+      - "9090:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+  pgadmin:
+    container_name: pgadmin
+    networks:
+      - eshoppingNet
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin@eShopping.net
+      - PGADMIN_DEFAULT_PASSWORD=pgadmin@123
+    restart: unless-stopped
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/root/.pgadmin
+
+  

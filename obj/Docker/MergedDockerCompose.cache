@@ -1,0 +1,169 @@
+name: dockercompose115338524390537365
+services:
+  basketApi:
+    build:
+      context: D:\Study\MicroSerivces\eShopping
+      dockerfile: Services/Basket/Basket.API/Dockerfile
+    container_name: basketApi
+    depends_on:
+      basketDb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CacheSettings__ConnectionString: basketdb:6379
+    image: basketapi
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7001"
+      protocol: tcp
+    restart: unless-stopped
+  basketDb:
+    container_name: basketDb
+    image: redis:alpine
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+  catalogApi:
+    build:
+      context: D:\Study\MicroSerivces\eShopping
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
+    container_name: catalogApi
+    depends_on:
+      catalogDb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings__BrandsCollection: Brands
+      DatabaseSettings__ConnectionString: mongodb://catalogdb:27017
+      DatabaseSettings__DatabaseName: CatalogDb
+      DatabaseSettings__ProductsCollection: Products
+      DatabaseSettings__TypesCollection: Types
+    image: catalogapi
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7000"
+      protocol: tcp
+    restart: unless-stopped
+  catalogDb:
+    container_name: catalogDb
+    image: mongo
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: mongo_data
+      target: /data/db
+      volume: {}
+  discountApi:
+    build:
+      context: D:\Study\MicroSerivces\eShopping
+      dockerfile: Services/Discount/Discount.API/Dockerfile
+    container_name: discountApi
+    depends_on:
+      discountDb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings__ConnectionString: Server=discountdb;Port=5432;Database=DiscountDb;User
+        Id=admin;Password=Password@1;
+    image: discountapi
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7002"
+      protocol: tcp
+  discountDb:
+    container_name: discountDb
+    environment:
+      POSTGRES_DB: DiscountDb
+      POSTGRES_PASSWORD: postgres@123
+      POSTGRES_USER: postgres
+    image: postgres:15.3
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5432"
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: postgres_data
+      target: /var/lib/postgresql/data
+      volume: {}
+  pgadmin:
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@eShopping.net
+      PGADMIN_DEFAULT_PASSWORD: pgadmin@123
+    image: dpage/pgadmin4
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5050"
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: volume
+      source: pgadmin_data
+      target: /root/.pgadmin
+      volume: {}
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce
+    networks:
+      eshoppingNet: null
+    ports:
+    - mode: ingress
+      target: 8000
+      published: "8080"
+      protocol: tcp
+    - mode: ingress
+      target: 9000
+      published: "9090"
+      protocol: tcp
+    restart: unless-stopped
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /var/run/docker.sock
+      bind:
+        create_host_path: true
+    - type: volume
+      source: portainer_data
+      target: /data
+      volume: {}
+networks:
+  eshoppingNet:
+    name: dockercompose115338524390537365_eshoppingNet
+    driver: bridge
+volumes:
+  mongo_data:
+    name: dockercompose115338524390537365_mongo_data
+  pgadmin_data:
+    name: dockercompose115338524390537365_pgadmin_data
+  portainer_data:
+    name: dockercompose115338524390537365_portainer_data
+  postgres_data:
+    name: dockercompose115338524390537365_postgres_data
