@@ -11,23 +11,18 @@ namespace Discount.Application.Handlers
     public class UpdateDiscountHandler : IRequestHandler<UpdateDiscountCommand, CouponModel>
     {
         private readonly IDiscountRepository _discountRepository;
+        private readonly IMapper _mapper;
 
-        public UpdateDiscountHandler(IDiscountRepository discountRepository)
+        public UpdateDiscountHandler(IDiscountRepository discountRepository, IMapper mapper)
         {
             _discountRepository = discountRepository;
+            _mapper = mapper;
         }
         public async Task<CouponModel> Handle(UpdateDiscountCommand request, CancellationToken cancellationToken)
         {
-            var coupon = _discountRepository.UpdateDiscount(new Coupon
-            {
-                Id = request.Id,
-                ProductName = request.ProductName,
-                Description = request.Description,
-                Amount = request.Amount
-            });
-
-            var couponModel = DiscountMapper.Mapper.Map<CouponModel>(coupon);
-
+            var coupon = _mapper.Map<Coupon>(request);
+            await _discountRepository.UpdateDiscount(coupon);
+            var couponModel = _mapper.Map<CouponModel>(coupon);
             return couponModel;
         }
     }

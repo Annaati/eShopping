@@ -1,21 +1,22 @@
 ﻿using Dapper;
 using Discount.Core.Entities;
 using Discount.Core.Repositories;
-using Discount.Infrastructure.Helpers;
+using Microsoft.Extensions.Configuration;
+using Npgsql;
 
 namespace Discount.Infrastructure.Repositories
 {
     public class DiscountRepository : IDiscountRepository
     {
-        private readonly DbConnFactoryHelper _dbConnFactoryHelper;
-        public DiscountRepository(DbConnFactoryHelper dbConnFactoryHelper)
+        private readonly IConfiguration _config;
+        public DiscountRepository(IConfiguration config)
         {
-            _dbConnFactoryHelper = dbConnFactoryHelper;
+            _config = config;
         }
 
         public async Task<Coupon> GetDiscount(string productName)
         {
-            var conn = _dbConnFactoryHelper.Create();
+            await using var conn = new NpgsqlConnection(_config.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var query = @"
                             SELECT * FROM Coupon WHERE ProductName=@ProductName;
@@ -33,7 +34,7 @@ namespace Discount.Infrastructure.Repositories
 
         public async Task<bool> CreateDiscount(Coupon coupon)
         {
-            var conn = _dbConnFactoryHelper.Create();
+            await using var conn = new NpgsqlConnection(_config.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var query = @"
                             INSERT INTO Coupon (ProductName, Description, Amount) 
@@ -49,7 +50,7 @@ namespace Discount.Infrastructure.Repositories
 
         public async Task<bool> UpdateDiscount(Coupon coupon)
         {
-            var conn = _dbConnFactoryHelper.Create();
+            await using var conn = new NpgsqlConnection(_config.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var query = @"
                             Update Coupon SET
@@ -68,7 +69,7 @@ namespace Discount.Infrastructure.Repositories
 
         public async Task<bool> DeleteDiscount(string productName)
         {
-            var conn = _dbConnFactoryHelper.Create();
+            await using var conn = new NpgsqlConnection(_config.GetValue<string>("DatabaseSettings:ConnectionString"));
 
             var query = @"
                             DELETE FROM Coupon WHERE ProductName=@ProductName;

@@ -15,6 +15,8 @@ namespace Discount.Application.Handlers
         {
             _discountRepository = discountRepository;
         }
+
+
         public async Task<CouponModel> Handle(GetDiscountQuery request, CancellationToken cancellationToken)
         {
             var coupon = await _discountRepository.GetDiscount(request.ProductName);
@@ -27,5 +29,7 @@ namespace Discount.Application.Handlers
 
             return couponModel;
         }
+
+
     }
 }

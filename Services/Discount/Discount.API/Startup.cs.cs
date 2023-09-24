@@ -12,7 +12,6 @@ namespace Discount.API
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<DbConnFactoryHelper>();
             services.AddMediatR(typeof(CreateDiscountHandler).GetTypeInfo().Assembly);
             services.AddScoped<IDiscountRepository, DiscountRepository>();
             services.AddAutoMapper(typeof(Startup));

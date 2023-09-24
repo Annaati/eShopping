@@ -17,6 +17,7 @@ namespace Discount.API.Services
             _logger = logger;
         }
 
+
         public override async Task<CouponModel> GetDiscount(GetDiscountRequest request, ServerCallContext context)
         {
             var query = new GetDiscountQuery(request.ProductName);

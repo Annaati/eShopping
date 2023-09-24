@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "WvOq0KvQ6KMGY1M+K+5am2Xqhy91b9hTITUBy9YghAkeXOM3IgRsy4ZeRWBrwT00SfLiaxFLupaa7tM+uk6F/g==",
+  "dgSpecHash": "hF8cnVt9C7fQQxYk/gLbyiEHPt5j5/0o102DvrwxLJMgaDxROcfZPchJyeClXxXAFT8NUoiPAVScOY5jn4Zi/w==",
   "success": true,
   "projectFilePath": "D:\\Study\\MicroSerivces\\eShopping\\Services\\Discount\\Discount.Application\\Discount.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Annaati\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore\\2.56.0\\grpc.aspnetcore.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server\\2.56.0\\grpc.aspnetcore.server.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.56.0\\grpc.aspnetcore.server.clientfactory.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.core.api\\2.56.0\\grpc.core.api.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.client\\2.56.0\\grpc.net.client.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.clientfactory\\2.56.0\\grpc.net.clientfactory.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.common\\2.56.0\\grpc.net.common.2.56.0.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.tools\\2.56.0\\grpc.tools.2.56.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore\\2.51.0\\grpc.aspnetcore.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server\\2.51.0\\grpc.aspnetcore.server.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.aspnetcore.server.clientfactory\\2.51.0\\grpc.aspnetcore.server.clientfactory.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.core.api\\2.51.0\\grpc.core.api.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.client\\2.51.0\\grpc.net.client.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.clientfactory\\2.51.0\\grpc.net.clientfactory.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.net.common\\2.51.0\\grpc.net.common.2.51.0.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\grpc.tools\\2.51.0\\grpc.tools.2.51.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -26,7 +26,8 @@
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.logging\\3.0.3\\microsoft.extensions.logging.3.0.3.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.options\\3.0.3\\microsoft.extensions.options.3.0.3.nupkg.sha512",
-    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512"
+    "C:\\Users\\Annaati\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
+    "C:\\Users\\Annaati\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }
